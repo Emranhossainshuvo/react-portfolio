@@ -2,6 +2,7 @@ import {
     createBrowserRouter,
   } from "react-router-dom";
 import Main from "../Main/Main";
+import Home from "../pages/Home/Home";
 
 
 
@@ -9,6 +10,12 @@ import Main from "../Main/Main";
     {
       path: "/",
       element: <Main></Main>,
+      children: [
+        {
+          path: '/', 
+          element: <Home></Home>
+        }
+      ]
     },
   ]);
 
