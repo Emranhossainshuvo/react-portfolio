@@ -3,7 +3,7 @@ import Home from "../pages/Home/Home";
 
 const Main = () => {
     return (
-        <div className="max-w-screen-lg mx-auto text-[#2A66AC]">
+        <div className="max-w-screen-xl mx-auto text-[#2A66AC]">
             <Outlet>
                 <Home></Home>
             </Outlet>
