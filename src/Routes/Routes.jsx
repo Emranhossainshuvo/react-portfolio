@@ -4,8 +4,8 @@ import {
 import Main from "../Main/Main";
 import Home from "../pages/Home/Home";
 import Works from "../pages/Works/Works";
-import Experience from "../pages/Experience/Experience";
 import Errorpage from "../pages/Errorpage/Errorpage";
+import Skills from "../pages/Skills/Skills";
 
 
 
@@ -24,8 +24,8 @@ import Errorpage from "../pages/Errorpage/Errorpage";
           element: <Works></Works>
         }, 
         {
-          path: '/experience', 
-          element: <Experience></Experience>
+          path: '/skills', 
+          element: <Skills></Skills>
         }
       ]
     },

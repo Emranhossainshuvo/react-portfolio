@@ -8,8 +8,8 @@ const Navbar = () => {
             </div>
             <div className="flex justify-between gap-4">
                 <NavLink to="/works"><h4>Works</h4></NavLink>
-                <NavLink to="/experience">
-                <h4>Experience</h4>
+                <NavLink to="/skills">
+                <h4>Skills</h4>
                 </NavLink>
             </div>
         </div>
